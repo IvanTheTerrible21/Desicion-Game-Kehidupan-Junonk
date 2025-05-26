@@ -1,17 +1,22 @@
 # Desicion-Game-Kehidupan-Junonk
 Coba Final Project Junonk
-pseudocode :
-   Main:
-    Buat window GUI menggunakan Tkinter
-    Buat objek GameApp, masukkan window sebagai parameter
-    Jalankan GUI loop utama
 
-   GameApp:
-    FUNCTION __init__(self, root):
-        Simpan root window
-        Set judul window jadi "Perjalanan Hidup"
-        Set stage awal ke 0
-        Set skor awal ke 0
+
+
+
+pseudocode :
+
+          Main:
+         Buat window GUI menggunakan Tkinter
+         Buat objek GameApp, masukkan window sebagai parameter
+         Jalankan GUI loop utama
+   
+      GameApp:
+       FUNCTION __init__(self, root):
+           Simpan root window
+           Set judul window jadi "Perjalanan Hidup"
+           Set stage awal ke 0
+           Set skor awal ke 0
 
         Buat label untuk menampilkan teks cerita
         Buat frame untuk menampung tombol pilihan
